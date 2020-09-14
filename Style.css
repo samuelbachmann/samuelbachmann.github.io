@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;
+ }
+ body{
+    background-color: #004B4B;
+ }
+
+ a{
+    text-decoration: none;
+    color: #CC8120;
+
+ }
+
+/* header */
+
+header{
+   background-image: url("Images/Foto-2.png"); 
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   text-align: center;
+}
+
+h1{
+   padding-top: 45vh;
+   font-size: 70pt;  
+   color: #CC5320;
+   line-height: 0.5;
+   position: relative;
+}
+h2{
+   font-size: 50pt;
+   color: #CC5320;
+   position: relative;
+}
+
+
+/* main */
+main{
+   margin: 0% 10% 0 10%;
+   height: 250vh;
+}
+
+/* Info */
+
+
+h3{
+   padding-top: 3.5%;
+   color: #CC5320;
+   font-size: 35pt;
+}
+
+.info{
+   height: 80vh;
+   background-color: white;
+   border-radius: 5px 50px;
+}
+
+/* Projects */
+
+#project{
+   padding-top: 5%;
+   text-align: center;
+}
+
+h4{
+   font-size: 20pt ;
+   color: #CC5320;
+   padding-top: 100% ;
+}
+
+.projects{
+   background-color: white;
+   height: 80vh;
+   width: 25%;
+   min-width: 200px;
+   text-align: center;
+   border-radius: 5px;
+   margin: 10px;
+   padding: -20px;
+}
+
+.project{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+#simon-says{
+   background-image: url("Images/simon-says.png");
+   background-size: 100%;
+   background-repeat :no-repeat ;
+}
+
+#galgje{
+   background-image: url("Images/Python-logo.png");
+   background-size: 100%;
+   background-repeat :no-repeat ;
+}
+
+.button{
+   color: white;
+   background:#CC5320 ;
+   font-size: 25px;
+   margin-top: 20%;
+   font-family:'Roboto', sans-serif;
+   text-align: center;
+   padding:20px;
+   border-radius: 20px;
+   height: auto;
+   bottom: 10 ;
+}
+
+.project-button{
+   height: 40vh;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}  
+
+
+
+/* Contacten */
+
+.contact{
+   text-align: center;
+   margin-top: 15%;
+   background-color: white;
+   height: 30vh;
+   width: 80%; 
+   margin: 5% 10%;
+}
+
+.contacten{
+   margin-top: 3%;
+   text-align: left;
+}
+
+/* footer */
+
+footer{
+   background-color: #CC5320;
+   height: 2.5vh;
+   color: white;
+   text-align: center;
+}

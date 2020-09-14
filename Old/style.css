@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+a {
+  text-decoration: none;
+}
+
+body{
+  background-color: #004B4B;
+}
+
+h1{
+  color: #CC5320;
+  font-weight: 400;
+  font-size: 40pt;
+}
+
+p{
+  color: #CC8120;
+}
+ 
+ /* ----- header ----- */
+header{
+    background-image: url("Images/Foto-2.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+#kop1_h1 {
+  color: #CC5320;
+  font-size: 100pt;
+  text-align: center;
+  padding-top: 50vh;
+  height: 9.2vh;
+}
+
+#kop1_h2{
+  color: #CC5320;
+  font-size: 70pt;
+  text-align: center;
+  font-style: normal;
+  height: 7.7vh;
+}
+
+/* ----- Wie ben ik ----- */
+
+#wie {
+  padding-top: 5%;
+  margin-left: 10%;
+}
+
+.tekstvlak{
+  border-radius: 5px 50px;
+  background-color: white;
+  margin-left: 10%;
+  width: 80%;
+  height: 80vh;
+}
+
+#tekst_1{
+  color: #CC8120;
+}
+
+/* ----- Projecten ----- */
+
+#projecten{
+  padding-top: 5%;
+  text-align: center;
+}
+
+.project_1{
+  height: 60vh;
+  width: 15%;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 3vh;
+  margin-left: 22.5%;
+  text-align: center;
+}
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_1 img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px ;
+  width: 100%;
+  max-height: 40vh;
+}
+
+
+.project_1 h1{
+  font-size: 25pt;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.button{
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 25px;
+  color: #CC8120;
+  background-color: #004B4B ;
+}
+
+
+/* ----- Badges ----- */
+
+.badges h1{
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.badge{
+  margin-left: 8%;
+  padding-top: 10vh;
+}
+
+#badge_id{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----- Contact ----- */
+
+.contact{
+  height: 20vh;
+  width: 80%;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 30vh;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+#contact{
+  padding-top: 5vh;
+}
+
+.contact a {
+  font-size: 25px;
+  color: #CC8120;
+}
+
+/* ----- Footer ----- */
+
+footer{
+  background-color: #CC8120;
+  margin-top: 3vh;
+  height: 20px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+}
+
